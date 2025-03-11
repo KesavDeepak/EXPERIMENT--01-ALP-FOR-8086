@@ -130,6 +130,43 @@ ret
 ## Output  
 ![Screenshot 2025-03-04 112027](https://github.com/user-attachments/assets/e963e84e-6b57-43d0-8dcf-18680535cbf4)
 
+## And of 8 bit numbers ALP
+```
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+```
+## Output
+![image](https://github.com/user-attachments/assets/ba5e863b-b18e-428d-abc7-193347e94caa)
+## OR of 8 bit numbers ALP
+```
+MOV AL,45H
+MOV BL,66H
+OR AL,BL
+HLT
+```
+## Output
+![image](https://github.com/user-attachments/assets/260e2408-d3fb-4083-b5f2-eaf8958b0085)
+
+## NOT of 8 bit number ALP
+```
+MOV AL,65H
+NOT AL
+HLT
+```
+## Output
+![image](https://github.com/user-attachments/assets/720aa2a4-14ad-4a9d-8fe1-ff5545f14f57)
+
+## XOR of 8 bit number ALP
+```
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+```
+## Output
+![image](https://github.com/user-attachments/assets/f890062e-da9f-4484-8ccd-1a257f7663e8)
 
 ## Result :
 
